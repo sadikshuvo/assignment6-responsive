@@ -1,0 +1,117 @@
+header {
+background: url('../images/cover(1).jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-color: #00000045;
+background-blend-mode: multiply;
+}
+.navbar-dark .navbar-nav .nav-link {
+color: white;
+font-size: 18px;
+display: block;
+text-decoration: none;
+padding: 10px 20px;
+text-transform: capitalize;
+font-weight: 600;
+border: 2px solid #fff0;
+border-radius: 30px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+border: 2px solid #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.navbar-nav .nav-item:last-child a{
+	border:2px solid white;
+	padding:10px 20px;
+}
+.container a span {
+display: block;
+}
+.colorful {
+padding:  100px 0;
+}
+.colorful span, .upcoming-event  span {
+width: 100px;
+height: 4px;
+display: block;
+background-color: #f9174e;
+margin: 15px auto;
+}
+.upcoming-event, .destination {padding: 100px 0 40px;}
+
+
+.tour {padding: 55px 0;}
+.tour img {
+	max-width: 100%;
+	border-radius: 10px;
+	box-shadow: 9px 9px 20px 0px #4746588c;
+}
+.tour h2 {
+    padding: 40px 0;
+    font-weight: 500;
+    font-size: 30px;
+}
+.tour p{
+    font-size: 20px;
+}
+.custom-button {
+	    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #f9174e;
+}
+.low-mid {
+	background: url('../images/silhouette-of-man-in-front-of-tent-1875449-mirror.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #00000045;
+	background-blend-mode: multiply;
+	padding: 50px;
+}
+.low-mid .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+    justify-content: flex-end;
+}
+
+.low-mid span, .destination span {
+	width: 100px;
+height: 4px;
+display: block;
+background-color: #f9174e;
+margin: 15px 0;
+}
+.low-mid .row  p, .destination p {font-size: 20px;padding: 25px 0;}
+.low-mid .row  a {
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	padding: 40px 40px 40px 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+}
+.gallery {
+	text-align: center;
+
+}
+.sml {max-width: 100%;object-fit: cover;height: 200px;padding: 15px 0;display: block;}
+.sml2 {max-width: 100%;object-fit: cover;height: 220px;padding: 15px 0;display: block;}
+.lrg {max-width: 100%;object-fit: cover;height: 430px;padding: 15px 0;display: block;}
+.lrg2 {max-width: 100%;object-fit: cover;height: 410px;padding: 15px 0;display: block;}
+footer {
+	background-color: black;
+}
